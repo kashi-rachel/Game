@@ -1,21 +1,5 @@
 <!DOCTYPE html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-</head>
-<body>
-  <h3>
- Use mouse to draw multiple rectangles with in the canvas
-</h3>
-<button id="clear">clear</button>
-<br />
-<canvas id="myCanvas" width=300 height=300></canvas>
-
-</body>
-  <script src="assets/teste.js"></script>
-<!-- <html>
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><?php echo $title; ?></title>
@@ -42,13 +26,10 @@
             <div id="sidebar">
 
             </div>
-            <?php if ($canvas) {
-              echo $canvas;
-            };
-             ?>
+
             <footer>
                 <p>All rights reserved</p>
             </footer>
         </div>
     </body>
-</html> -->
+</html>
